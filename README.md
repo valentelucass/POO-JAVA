@@ -81,24 +81,3 @@ Desenvolvido por [Lucas Andrade](https://www.linkedin.com/in/dev-lucasandrade) �
 ---
 
 ## 📜 **Licença**
-
-Código de uso **livre para fins educacionais**.
-Contribuições e sugestões são bem-vindas!
-
----
-
-```
-
----
-
-### ✅ **Como usar**
-1. Copie **tudo acima**, sem alterar.
-2. No seu repositório GitHub, clique em **Add file → Create new file**.
-3. Nomeie o arquivo como `README.md`.
-4. Cole o conteúdo.
-5. Clique em **Commit new file**.
-
-Pronto! Assim seu repositório fica bem apresentável, com cada projeto explicado.
-
-Se quiser, posso criar o arquivo pronto `.md` e te enviar. Quer? 🚀✨
-```
