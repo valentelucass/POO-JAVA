@@ -1,8 +1,3 @@
-Ótima pergunta, Lucas! Você deve copiar **exatamente o conteúdo entre o bloco de markdown que enviei**, ou seja, esta parte aqui embaixo:
-
----
-
-````markdown
 # 🚀 Repositório de Projetos Java — Treinando POO
 
 Este repositório contém **quatro mini-projetos em Java**, criados para praticar conceitos essenciais de **Programação Orientada a Objetos (POO)**, controle de fluxo, entrada de dados e boas práticas de codificação.
