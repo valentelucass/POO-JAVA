@@ -1,15 +1,14 @@
 public class Produto {
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25;
 
     // Construtor da classe Produto
     // Diferente de métodos comuns, não tem tipo de retorno (nem void)
     // É executado automaticamente ao criar um objeto (new Produto())
-    Produto(String nome, double preco, double desconto) {
+    Produto(String nome, double preco) {
         this.nome = nome;       // o atributo recebe o valor do parâmetro
         this.preco = preco;
-        this.desconto = desconto;
         // this serve para diferenciar atributo do parâmetro com mesmo nome
     }
 

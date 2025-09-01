@@ -1,51 +1,79 @@
-# 🚀 Repositório de Projetos Java — Treinando POO
+# Repositório de Estudos em Programação Orientada a Objetos (POO) em Java
 
-Este repositório contém **quatro mini-projetos em Java**, criados para praticar conceitos essenciais de **Programação Orientada a Objetos (POO)**, controle de fluxo, entrada de dados e boas práticas de codificação.
+Este repositório contém projetos e exercícios desenvolvidos para o aprendizado e prática de Programação Orientada a Objetos (POO) em Java.
 
----
+## Estrutura do Repositório
 
-## 📂 **Projetos Inclusos**
+### 1️⃣ classes-atributos-metodos-encapsulamento/
+Exercícios introdutórios sobre classes, atributos, métodos e encapsulamento em Java.
+- `Cachorro.java`: Classe que demonstra atributos e métodos básicos
+- `ContaBancaria.java`: Implementação de uma conta bancária com operações básicas
 
-### 1️⃣ NumerosAleatorios
-Um jogo de adivinhação:
-- O usuário define o valor máximo a ser sorteado.
-- Tem 10 tentativas para adivinhar o número secreto.
-- A cada tentativa, perde pontos.
-- Ao final, o jogo exibe a pontuação ou revela o número secreto.
+### 2️⃣ comparacao-objetos/
+Exemplos de comparação de objetos em Java.
+- `Livro.java`: Demonstração de comparação de objetos
 
-**Arquivo:** `NumerosAleatorios.java`
+### 3️⃣ construtores/
+Estudo sobre construtores em Java.
+- `Produto.java`: Exemplo de classe com diferentes construtores
 
----
+### 4️⃣ criando-classes-objetos/
+Primeiros passos na criação de classes e objetos.
+- `Caneta.java`: Exemplo simples de uma classe Caneta
+- `Main.java`: Classe principal para teste
 
-### 2️⃣ Cachorro
-Primeiro exercício de POO:
-- Criação de uma classe com atributos (`nome`, `idade`).
-- Métodos: `latido()` (imprime som do cachorro) e `calcular_idade()` (converte idade para meses).
+### 5️⃣ exemplos/
+Exemplos práticos de conceitos de POO.
+- `Cachorro.java`
+- `ContaBancaria.java`
 
-**Arquivo:** `Cachorro.java`
+### 6️⃣ exercicios/
+Exercícios práticos de POO.
+- `Data.java`: Implementação de uma classe Data
+- `DataTeste.java`: Testes para a classe Data
+- `Produto.java`: Implementação de uma classe Produto
 
----
+### 7️⃣ generics/
+Estudo sobre Generics em Java.
+- `GuiaColecoes.java`: Exemplos de uso de coleções genéricas
+- `SobreNosServlet.java`: Exemplo de Servlet com Generics
 
-### 3️⃣ Produto
-Prática de **encapsulamento**:
-- Classe `Produto` com atributos privados (`nome`, `preco`).
-- `getters` e `setters` com validação para preço.
-- Método `mostrarInfo()` para exibir detalhes.
+### 8️⃣ heranca/
+Exemplos de herança em Java.
+- `Funcionario.java`: Demonstração de herança
 
-**Arquivo:** `Produto.java`
+### 9️⃣ interfaces-1/ e interfaces-2/
+Estudo sobre interfaces em Java.
+- `Controlador.java` e `ControleRemoto.java`: Exemplo de interface
+- `Lampada.java` e `SmartTV.java`: Implementações de interfaces
 
----
+### 🔟 polimorfismo/
+Exemplos de polimorfismo em Java.
+- `Cozinheiro.java`: Demonstração de polimorfismo
+- `Produto.java`: Classe base para exemplo de polimorfismo
 
-### 4️⃣ ContaBancaria + CaixaEletronico
-Mini-sistema de **Caixa Eletrônico Virtual**:
-- Login com validação de número da conta e titular (não sensível a maiúsculas/minúsculas).
-- Funcionalidades: depositar, sacar, consultar saldo e encerrar sessão.
-- Organização em duas classes:
-  - `ContaBancaria` → molde da conta.
-  - `CaixaEletronico` → controla o menu e interação.
+## Como Executar
 
-**Arquivos:**  
-- `ContaBancaria.java`  
-- `CaixaEletronico.java`
+Cada diretório contém seus próprios arquivos fonte Java. Para compilar e executar:
 
----
+1. Navegue até o diretório desejado
+2. Compile os arquivos .java:
+   ```bash
+   javac *.java
+   ```
+3. Execute a classe principal:
+   ```bash
+   java NomeDaClassePrincipal
+   ```
+
+## Tópicos Abordados
+
+- Classes e Objetos
+- Atributos e Métodos
+- Encapsulamento
+- Construtores
+- Herança
+- Polimorfismo
+- Interfaces
+- Generics
+- Coleções
